@@ -16,7 +16,7 @@ Note - Like Ue4Dumper you dont need to specify Game Package Name, Only update of
 # How to Use?
 Download Pre Dumped SDKs - https://github.com/Real-Ascarre/UE4-Apk-Dumper/tree/master/Dumped%20SDKs/
 
-Download Pre Built Apk - https://github.com/Real-Ascarre/UE4-Apk-Dumper/releases/
+Download Pre Built Apk (Do not Use this for Dumping, its a Prototype) - https://github.com/Real-Ascarre/UE4-Apk-Dumper/releases/ 
 
 1. Copy the Library file in the correct Game Libs folder (Shared Libraries) - Currently Supported - 32Bit & 64Bit
 2. Rename the dex (dumper apk) to the next number which the game has, For example - If the game has 3 dex file named as classes.dex, classes2.dex & classes3.dex then rename our apk dex as classes4.dex and put inside the game
@@ -34,6 +34,20 @@ If you followed the Tutorial on "# How to Use?" properly then a Directory should
 
 # Am Noob and Help me, Need Video Tutorial
 Kill Apk signature Verification and follow this - https://youtu.be/cDEUkwToms4
+
+# Game Crashing Help?
+The Game may crash for many reasons but i will state the ovious.
+1. Changing the PackageName - Donot change the package name if you don't know how this source works.
+2. After Lib Dump - To save Memory i add auto crash after dumping and rebuilding the Lib File from Memory. (So Dont panic)
+3. Wrong Offsets - Now wrong offsets shouldn't crash you right? But no, Many game does, and for Pubg series donot just add offsets in offsets page, i added option for the pointers like 'GNamePointer' and 'GWorldPointer' and for Pubg lite its Decryption Method (if you cant dump use Pre-Dumped).
+4. Signature Kill - Before complaining please check your Signature Kill/Hook without the dumper, Many sources are public so they may not work anymore.
+5. General - If someone faces Crash due to other reasons from stated above, please do create a Issue. I would be glad to help you.
+
+# Why nothing is Dumping? No folder is Created
+Many would face this problem, i dont know where you doing wrong exactly but here are some tips to fix it.
+1. Add permission - Add 'MANAGE_EXTERNAL_STORAGE' permission and Check for Read, Write External storage permissions.
+2. Enable Settings - Make sure that after adding permission you manually go to settings and Switch on the Allow all Access option. (Older Android wont have it so give storage permission or go to advanced settings if there is one and allow it).
+3. Offsets Update - Make sure that offsets are updated, if you think the dumper offsets are outdated please create a issue.
 
 # ChangeLogs
 - v0.1: First Release with Support for No-Root
@@ -65,8 +79,7 @@ Kill Apk signature Verification and follow this - https://youtu.be/cDEUkwToms4
 # To-Do
 1. Add support to Dump Specific Offsets only.
 2. Generate Internal Sdk Structures or Internal SDK.
-3. Add Support for UE3 and many other UE4 Games.
-4. Dump Calculted Offsets like ComponentToWorld and other Offsets.
+3. Dump Calculted Offsets like ComponentToWorld and other Offsets.
 
 # Want to Support me?
 Join my Telegram Channel - https://t.me/ascarrehacks
