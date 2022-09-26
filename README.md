@@ -23,7 +23,7 @@ Download Pre Built Apk - https://github.com/Real-Ascarre/UE4-Apk-Dumper/releases
 3. Open MainActivity file of the Game, For Example - BGMI's MainActivity where we can put our code is "SplashActivity" under "onCreate" Function.
 4. Now after findind the file put this line - "invoke-static {p0}, Lashope/tech/generator/MainActivity;->CheckOverlayPermission(Landroid/content/Context;)V" under "onCreate" Function. (NOTE - Put this line right before the "onCreate" string inside the "onCreate" Function)
 5. Save the Dex file and open our dex file that we copied inside the Game and Delete the "DeleteActivity" file and save the apk
-6. Edit the manifest file and add permission for Manage all files specifically this line - "<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />"
+6. Edit the manifest file and add permission for Manage all files specifically this line - "//<uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />"
 7. Now Sign the Apk (NOTE - You need to Kill SignVerification if there is any Checks)
 8. Give Permissionn for All Files access, not just to Media file permission.
 9. Open Game then Select as per Game and Version then turn on the Dumping Options, for Pubg turn on PubgM series option.
