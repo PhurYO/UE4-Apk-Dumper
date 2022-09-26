@@ -26,8 +26,8 @@ Download Pre Built Apk - https://github.com/Real-Ascarre/UE4-Apk-Dumper/releases
 6. Edit the manifest file and add permission for Manage all files - "android.permission.MANAGE_EXTERNAL_STORAGE"
 7. Now Sign the Apk (NOTE - You need to Kill SignVerification if there is any Checks)
 8. Give Permissionn for All Files access, not just to Media file permission.
-9. Open Game then Select as per Game and Version then turn on the Dumping Options, for Pubg turn on PubgM series option.
-10. Dump will be genrated in /sdcard/DumpedGames/'Game Package Name'
+9. Open Game, then turn on the Dumping Options, Like for SDK select SDKW or SDK Option.
+10. Dump will be genrated in '/sdcard/DumpedGames/Game_Package_Name'
 
 # How to Get the Dump files?
 If you followed the Tutorial on "# How to Use?" properly then a Directory should appear on your sdcard (same place where "Download" folder is present) named as "DumpedGames" and inside should be another folder named as the game Packagename, For Example - For Game BGMI there should be "com.pubg.imobile" folder inside "DumpedGames" folder. Now every Dump should be Present inside their Respective folder.
