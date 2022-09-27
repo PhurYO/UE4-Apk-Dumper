@@ -49,6 +49,9 @@ Many would face this problem, i dont know where you doing wrong exactly but here
 2. Enable Settings - Make sure that after adding permission you manually go to settings and Switch on the Allow all Access option. (Older Android wont have it so give storage permission or go to advanced settings if there is one and allow it).
 3. Offsets Update - Make sure that offsets are updated, if you think the dumper offsets are outdated please create a issue.
 
+# Why source is not compiling/building in AIDE? Showing Erros in AIDE
+Firstly i don't recommend using AIDE but its upto you, if you dont have a Pc/Laptop to compile the source then use AIDE. I never used AIDE and don't have much experience so i can't quite convert the source for AIDE but if someone of you know how to do it please do help and ping me. I will give you the credits and share the source here for everyone else to use. 
+
 # ChangeLogs
 - v0.1: First Release with Support for No-Root
 
