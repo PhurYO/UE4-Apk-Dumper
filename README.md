@@ -56,34 +56,34 @@ Firstly i don't recommend using AIDE but its upto you, if you dont have a Pc/Lap
 - v0.1: First Release with Support for No-Root
 
 - v0.2:
-- 1) Added Support for Unreal Engine 4.23+ Version
-- 2) Added Seperate Option for 4.23+ Versions
-- 3) Added Seperate Option for PubgM Series (Pubg Lite and New State Not Supported Yet)
-- 4) Added Base Offsets on Dump to access Easily.
-- 5) Fixed NamesDump for 64Bit.
-- 6) Fixed Project Issue for Others
+ 1) Added Support for Unreal Engine 4.23+ Version
+ 2) Added Seperate Option for 4.23+ Versions
+ 3) Added Seperate Option for PubgM Series (Pubg Lite and New State Not Supported Yet)
+ 4) Added Base Offsets on Dump to access Easily.
+ 5) Fixed NamesDump for 64Bit.
+ 6) Fixed Project Issue for Others
 
 - v0.3:
-- 1) Added Support for No-Root Lib Dumping and Regeneration for 32 Bit & 64 Bit.
-- 2) Added Support for Android API Level 32. Minimum Sdk is now 26 (Android 8).
-- 3) Cleaned Up the Source
+ 1) Added Support for No-Root Lib Dumping and Regeneration for 32 Bit & 64 Bit.
+ 2) Added Support for Android API Level 32. Minimum Sdk is now 26 (Android 8).
+ 3) Cleaned Up the Source
 
 - v0.4:
-- 1) Added Support for Pubg Lite.
-- 2) Added Support for Android API Level 33. Minimum Sdk lowered to 21.
-- 3) Added XOR Decryption.
-- 4) Added GNames Decryption Method.
-- 5) Added Support for Full and Fast Lib Dumping.
-- 6) Fixed issues where 4.23+ Gmaes were not dumping.
-- 7) Fixed crash issues for 4.23+ games while dumping
-- 8) Added Support for different Games at once.
-- 9) Fixed Guobject dumping bugs.
+ 1) Added Support for Pubg Lite.
+ 2) Added Support for Android API Level 33. Minimum Sdk lowered to 21.
+ 3) Added XOR Decryption.
+ 4) Added GNames Decryption Method.
+ 5) Added Support for Full and Fast Lib Dumping.
+ 6) Fixed issues where 4.23+ Gmaes were not dumping.
+ 7) Fixed crash issues for 4.23+ games while dumping
+ 8) Added Support for different Games at once.
+ 9) Fixed Guobject dumping bugs.
 
 - v0.5:
-- 1) Added old PubgM GName Reading (Lite needs Decryption).
-- 2) Added Auto Offset Selector.
-- 3) Added Auto UE Version Selector.
-- 4) Added new dump names for better output showcase.
+ 1) Added old PubgM GName Reading (Lite needs Decryption).
+ 2) Added Auto Offset Selector.
+ 3) Added Auto UE Version Selector.
+ 4) Added new dump names for better output showcase.
 
 # To-Do
 1. Add support to Dump Specific Offsets only.
