@@ -76,6 +76,12 @@ Many would face this problem, i dont know where you doing wrong exactly but here
 - 8) Added Support for different Games at once.
 - 9) Fixed Guobject dumping bugs.
 
+- v0.5:
+- 1) Added old PubgM GName Reading (Lite needs Decryption).
+- 2) Added Auto Offset Selector.
+- 3) Added Auto UE Version Selector.
+- 4) Added new dump names for better output showcase.
+
 # To-Do
 1. Add support to Dump Specific Offsets only.
 2. Generate Internal Sdk Structures or Internal SDK.
