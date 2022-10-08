@@ -13,6 +13,8 @@ NO, it doesn't need Root Privileges.
 
 Note - Like Ue4Dumper you dont need to specify Game Package Name, Only update offsets to Dump
 
+AIDE Link - https://mega.nz/file/nDomjIoK#3ANu_VSSscElsbD0QJbXzmbU0e-ZVn3fyaTvzUNTBI0 (Read the Specified Sections below becore Download)
+
 # How to Use?
 Download Pre Dumped SDKs - https://github.com/Real-Ascarre/UE4-Apk-Dumper/tree/master/Dumped%20SDKs/
 
@@ -50,7 +52,14 @@ Many would face this problem, i dont know where you doing wrong exactly but here
 3. Offsets Update - Make sure that offsets are updated, if you think the dumper offsets are outdated please create a issue.
 
 # Why source is not compiling/building in AIDE? Showing Erros in AIDE
-Firstly i don't recommend using AIDE but its upto you, if you dont have a Pc/Laptop to compile the source then use AIDE. I never used AIDE and don't have much experience so i can't quite convert the source for AIDE but if someone of you know how to do it please do help and ping me. I will give you the credits and share the source here for everyone else to use. 
+Firstly i don't recommend using AIDE but its upto you, if you dont have a Pc/Laptop to compile the source then use AIDE. I never used AIDE and don't have much experience so i can't quite convert the source for AIDE.
+
+# Will you try to convert or share AIDE supported source when available?
+Yes, a developer pinged me with AIDE supported source. Thou i guess some functions are not available but it compiled and works. I guess the functions are removed due to some problems regarding 64Bit Arch.
+
+# Will there be Updates for AIDE supported Source?
+No, I can't push updates for AIDE, but again if i get anything regarding AIDE i will share it with you. You can also copy the main files from jni folder and copy the lines from java folder when i push an update. 
+Note - AIDE doesn't support 64 Bit Arch and lambda (as far i recognised).
 
 # ChangeLogs
 - v0.1: First Release with Support for No-Root
