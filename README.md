@@ -13,7 +13,7 @@ NO, it doesn't need Root Privileges.
 
 Note - Like Ue4Dumper you dont need to specify Game Package Name, Only update offsets to Dump
 
-AIDE Link - https://mega.nz/file/nDomjIoK#3ANu_VSSscElsbD0QJbXzmbU0e-ZVn3fyaTvzUNTBI0 (Read the Specified Sections below becore Download)
+AIDE Source Link - https://mega.nz/file/nDomjIoK#3ANu_VSSscElsbD0QJbXzmbU0e-ZVn3fyaTvzUNTBI0 (Read the Specified Sections below becore Download)
 
 # How to Use?
 Download Pre Dumped SDKs - https://github.com/Real-Ascarre/UE4-Apk-Dumper/tree/master/Dumped%20SDKs/
