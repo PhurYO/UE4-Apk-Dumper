@@ -99,5 +99,9 @@ Note - AIDE doesn't support 64 Bit Arch and lambda (as far i recognised).
 2. Generate Internal Sdk Structures or Internal SDK.
 3. Dump Calculted Offsets like ComponentToWorld and other Offsets.
 
+# Contributors (No Personal Info)
+1. Kuldip Patel (https://github.com/kp7742)
+2. Allan Fuego (No Links)
+
 # Want to Support me?
 Join my Telegram Channel - https://t.me/ascarrehacks
