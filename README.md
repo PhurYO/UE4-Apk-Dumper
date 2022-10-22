@@ -23,7 +23,7 @@ Download Pre Built Apk (Do not Use this for Dumping, its a Prototype) - https://
 1. Copy the Library file in the correct Game Libs folder (Shared Libraries) - Currently Supported - 32Bit & 64Bit
 2. Rename the dex (dumper apk) to the next number which the game has, For example - If the game has 3 dex file named as classes.dex, classes2.dex & classes3.dex then rename our apk dex as classes4.dex and put inside the game
 3. Open MainActivity file of the Game, For Example - BGMI's MainActivity where we can put our code is "SplashActivity" under "onCreate" Function.
-4. Now after findind the file put this line - "invoke-static {p0}, Lashope/tech/generator/MainActivity;->CheckOverlayPermission(Landroid/content/Context;)V" under "onCreate" Function. (NOTE - Put this line right before the "onCreate" string inside the "onCreate" Function)
+4. Now after findind the file put this line - "invoke-static {p0}, Lashope/tech/dumper/MainActivity;->CheckOverlayPermission(Landroid/content/Context;)V" under "onCreate" Function. (NOTE - Put this line right before the "onCreate" string inside the "onCreate" Function)
 5. Save the Dex file and open our dex file that we copied inside the Game and Delete the "DeleteActivity" file and save the apk
 6. Edit the manifest file and add permission for Manage all files - "android.permission.MANAGE_EXTERNAL_STORAGE"
 7. Now Sign the Apk (NOTE - You need to Kill SignVerification if there is any Checks)
