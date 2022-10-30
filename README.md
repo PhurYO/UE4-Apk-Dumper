@@ -4,6 +4,9 @@ An Internal app which can be implemented into game apk and used to generate Sdk 
 # Does it need Root Access?
 NO, it doesn't need Root Privileges.
 
+# Does it work on Rooted Devices?
+YES, it works on both ROOTED & NON-ROOTED Devices.
+
 # How to Build?
 1. Clone the Repo 
 2. Open in Android Studio and Press Trust this Project if prompted
